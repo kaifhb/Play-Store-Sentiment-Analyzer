@@ -1,20 +1,3 @@
-# from typing import List, Dict
-
-# from google_play_scraper import search
-
-
-# def suggest_apps(query: str, limit: int = 7) -> List[Dict[str, str]]:
-#     """
-#     Return up to `limit` suggestions [{name, appId}] matching the partial query.
-
-#     Uses the same unofficial google-play-scraper search we already rely on.
-#     """
-#     if not query or len(query) < 2:           # debounce tiny inputs
-#         return []
-
-#     results = search(query, lang="en", country="us", n_hits=limit)
-#     return [{"name": r["title"], "appId": r["appId"]} for r in results[:limit]]
-
 
 """
 Robust helper for the /suggest endpoint.

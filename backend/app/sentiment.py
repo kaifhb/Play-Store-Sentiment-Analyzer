@@ -23,7 +23,7 @@ async def average_score(texts: List[str]) -> float:
     Ask Gemini to compute ONE average-sentiment number for the entire list.
     """
 
-    # Build a concise prompt so we stay well below the context limit.
+   
     reviews_block = "\n---\n".join(texts)
     prompt = (
         "You are a strict sentiment calculator.\n"
