@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+backend/venv/
+backend/.venv/
+
+# Node/Next
+frontend/node_modules/
+frontend/.next/
+npm-debug.log*
+
+# Secrets
+**/.env
+**/.env.*
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

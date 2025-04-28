@@ -1,0 +1,23 @@
+   /* body {
+  font-family: system-ui, sans-serif;
+  margin: 0;
+  padding: 2rem;
+  background: #f9fafb;
+}
+
+input,
+button {
+  padding: 0.5rem 0.75rem;
+  font-size: 1rem;
+}  
+  */
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* custom global tweaks (optional) */
+body {
+  @apply bg-gray-50 font-sans text-gray-800;
+}
